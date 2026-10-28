@@ -32,7 +32,7 @@ io.use((socket, next) => {
   sessionMiddleware(socket.request, {}, next);
 });
 
-// In-memory storage
+
 const users = {};
 const rooms = {};
 
